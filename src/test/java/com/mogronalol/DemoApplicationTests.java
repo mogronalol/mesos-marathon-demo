@@ -25,7 +25,7 @@ public class DemoApplicationTests {
 
     @Test
     public void contextLoads() {
-        final String result = restTemplate.getForObject("http://localhost:8080/", String.class);
+        final String result = restTemplate.getForObject("http://localhost:8081/", String.class);
         assertThat(result).isEqualTo("Hello world");
     }
 
