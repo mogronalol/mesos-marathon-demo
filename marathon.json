@@ -1,0 +1,13 @@
+{
+  "id": "basic-3",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "mogronalol/mesos-marathon-demo:3",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "containerPort": 8080, "hostPort": 0 }
+      ]
+    }
+  }
+}
