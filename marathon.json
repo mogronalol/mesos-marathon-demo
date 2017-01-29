@@ -6,7 +6,7 @@
       "image": "mogronalol/mesos-marathon-demo:3",
       "network": "BRIDGE",
       "portMappings": [
-        { "containerPort": 8080, "hostPort": 0 }
+        { "containerPort": 8082, "hostPort": 0 }
       ]
     },
     "volumes": []
