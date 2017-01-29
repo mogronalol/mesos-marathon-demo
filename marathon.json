@@ -1,9 +1,9 @@
 {
-  "id": "application",
+  "id": "mesos-marathon-demo",
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "mogronalol/mesos-marathon-demo:3",
+      "image": "",
       "network": "BRIDGE",
       "portMappings": [
         { "containerPort": 8082, "hostPort": 0 }
